@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I'm a Software Engineer who writes code and loves to share his thoughts with the world.
+I write code for a living, listen to and discuss music to keep myself going, read tech blogs and non-fiction to keep myself updated, and spend some time with celestial objects to relax.
 
-Feel free to connect over mail: [dev.randominstincts@gmail.com](mailto:kartikt97@gmail.com)
+Feel free to connect over mail: [Kartik](mailto:dev.randominstincts@gmail.com)
