@@ -6,10 +6,9 @@
 name: Random Instincts
 
 # Short bio or description (displayed in the header)
-description: As the name suggests, the triggers to write the posts found here are just random instincts.
-
+description: Blog posts triggered by random instincts
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://i.imgur.com/HNI4DkQ.png
+avatar: https://i.imgur.com/XV8fErn.png
 
 #
 # Flags below are optional
@@ -23,7 +22,7 @@ footer-links:
   flickr:
   github: randominstincts
   instagram:
-  linkedin: in/kartiknt/
+  linkedin: kartiknt
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: 
@@ -37,7 +36,7 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: G-8E88XQW8M5
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
