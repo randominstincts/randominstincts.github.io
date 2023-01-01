@@ -1,14 +1,15 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './NavBar.css'
 
 export const NavBar = () => {
-    
+    const navigate = useNavigate();
     const navigateToHome = () => {
-        window.location.href = '/';
+        navigate("/");
     }
 
     const navigateToAbout = () => {
-        window.location.href = '/about';
+        navigate("/about");
     }
     return (
         <>        

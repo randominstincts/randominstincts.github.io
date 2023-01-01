@@ -2,6 +2,7 @@ import * as React from "react";
 import { useEffect, useState } from 'react';
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { posts } from "../../utils/constants";
+import { NavBar } from "../NavBar/NavBar";
 import './Post.css';
 
 interface State {
@@ -67,12 +68,15 @@ export const Post = (props: any) => {
 
 
     return (
-        <div className='post-container'>
-           <span className='post-heading'>{postMetadata?.title}</span>
-           <span className='post-metadata'><i>Written by Kartik on {postMetadata?.date}</i></span>
-           <div className='post-content'>
-            <ReactMarkdown children={postContent || ''}></ReactMarkdown>
-           </div>
+        <div>
+            <NavBar/>
+            <div className='post-container'>
+            <span className='post-heading'>{postMetadata?.title}</span>
+            <span className='post-metadata'><i>Written by Kartik on {postMetadata?.date}</i></span>
+            <div className='post-content'>
+                <ReactMarkdown children={postContent || ''}></ReactMarkdown>
+            </div>
+            </div>
         </div>
     );
 } 

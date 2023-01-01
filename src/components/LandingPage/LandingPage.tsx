@@ -2,6 +2,7 @@ import React from 'react';
 import './LandingPage.css';
 import { posts } from '../../utils/constants';
 import { useNavigate } from 'react-router-dom';
+import { NavBar } from '../NavBar/NavBar';
 
 export const LandingPage = () => {
     const navigate = useNavigate();
@@ -27,10 +28,11 @@ export const LandingPage = () => {
         navigate(`post/${post.id}`);
    }
     return (
-        <>        
-        <div className='container'>
-            {renderPosts()}
+        <div>    
+            <NavBar/>    
+            <div className='container'>
+                {renderPosts()}
+            </div>
         </div>
-        </>
     );
 } 

@@ -1,6 +1,6 @@
 .container {
     height:100%;
-    background-color: #000000;
+    background-color: #121212;
     display: flex;
     flex-direction: row;
     padding: 24px;
@@ -10,7 +10,7 @@
 
 .post-card {
     border-radius: 12px;
-    background-color: #000000;
+    background-color: #181818;
     color: #eeeeee;
     box-shadow: 0 8px 8px 0 rgba(255,255,255,0.2);
     transition: 0.3s;
@@ -25,7 +25,7 @@
 @media (max-width: 480px) {
     .post-card {
         border-radius: 12px;
-        background-color: #000000;
+        background-color: #181818;
         color: #eeeeee;
         box-shadow: 0 8px 8px 0 rgba(255,255,255,0.2);
         transition: 0.3s;

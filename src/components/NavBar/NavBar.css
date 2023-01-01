@@ -1,6 +1,6 @@
 .navbar-div {
     display: flex;
-    background-color: #000000;
+    background-color: #121212;
     color: #eeeeee;
     padding:16px;
     justify-content: space-around;
@@ -13,7 +13,7 @@
 @media (max-width: 480px) {
     .navbar-div {
         display: flex;
-        background-color: #000000;
+        background-color: #121212;
         color: #ffffff;
         padding:8px;
         justify-content: space-around;
