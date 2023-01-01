@@ -1,0 +1,25 @@
+.background-image {
+    background-color: #000;
+}
+
+.post-container {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    color: #eee;
+}
+
+.post-heading {
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.post-metadata {
+    margin-top: 8px;
+    color: #808080;
+    font-size: 12px;
+}
+
+.post-content {
+    font-size: 18px;
+}

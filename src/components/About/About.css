@@ -1,0 +1,32 @@
+.main-div {
+    padding: 72px;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 480px) {
+.main-div {
+    padding: 36px;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+}
+}
+
+.hi-text {
+    font-size: 72px;
+    font-weight: 800;
+}
+
+.description-text {
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+@media (max-width: 480px) {
+    .description-text {
+        font-size: 20px;
+        margin-top: 24px;
+    }
+}
